@@ -16,16 +16,24 @@ function Navbar(){
         a{
           background-color:green;
           color:white;
-          padding:5px;
+          padding:10px;
           margin:5px;
+          border-radius:10px;
+          font-family:"Fira Sans";
         }
         img{
           width:100%;
-          clip: rect(0px,0px,100px,0px);
+          height:50%;
+          border-radius:25px;
+          border-style:dotted;
+          border-width:1px;
+          border-color:green;
+          background-color:green;
         }
         .container{
           text-align:center;
-          background-color:red;
+          margin-left:-15px;
+          margin-right:-15px;
         }
         .centered {
           position: absolute;
@@ -34,22 +42,22 @@ function Navbar(){
           transform: translate(-50%, -50%);
           color:white;
           font-family:"Fira Sans";
+          font-size:7vw;
         }
 
       `}</style>
     <div className="container">
       <img src={mountains}/>
       <h1 className="centered">Avalanche Camping</h1>
-    </div>
-    <nav>
-      <a href = '#'>Link 1</a>
-      <a href = '#'>Link 1</a>
-      <a href = '#'>Link 1</a>
-      <a href = '#'>Link 1</a>
-    </nav>
 
+    <nav>
+      <a href = 'Home'>Home</a>
+      <a href = 'About'>About</a>
+      <a href = 'Reservation'>Reservation</a>
+      <a href = 'SignIn'>Sign In</a>
+    </nav>
+    </div>
 </div>
   );
 }
-
 export default Navbar;
