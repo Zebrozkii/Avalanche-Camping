@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function SignIn() {
   return (
 <div>
   <style jsx>{`
@@ -10,11 +10,11 @@ function Home() {
     
     `}</style>
     <div className="container">
-      <h1>Home</h1>
-      <p>Map will eventually go here but for now will put pictures of potential spots</p>
+      <h1>SignIn</h1>
+      <p>Sign in Form here</p>
     </div>
 </div>
   );
 }
 
-export default Home;
+export default SignIn;
